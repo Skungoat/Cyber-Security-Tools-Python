@@ -29,5 +29,8 @@ Pour garantir la robustesse et la performance de l'outil, les algorithmes suivan
 ## LANCEMENT : 
 python interface.py
 
+si jamais vous rencontrer cette erreur UnicodeDecodeError: 'utf-8' codec can't decode byte 0xee in position 1: invalid continuation byte augmenter p = arithmetic.generate_prime(512)
+                            q = arithmetic.generate_prime(512)
+
 
 ## Développé par Reymbaut - Étudiant en L3 Maths-Info & Freelance Cybersécurité sur Malt.
