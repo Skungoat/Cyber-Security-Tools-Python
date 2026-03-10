@@ -42,7 +42,7 @@ def is_prime(n,k=40):
 
     for _ in range(k):
         a = random.randint(2, n - 2)
-        x = exp_modulo(a, d, n) # Calcul de a^d % n optimisé en Python
+        x = exp_modulo(a, d, n) 
         if x == 1 or x == n - 1:
                 continue
         for _ in range(r - 1):
